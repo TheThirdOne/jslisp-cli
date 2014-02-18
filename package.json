@@ -24,15 +24,18 @@
   "engines": {
     "node": ">= 0.8.0"
   },
-  "scripts": {
-    "test": "grunt nodeunit"
+  "preferGlobal": "true",
+  "bin": {
+    "ijl": "lib/jslisp-cli.js",
+    "jsl": "lib/jslisp-cli.js"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.4",
-    "grunt-contrib-nodeunit": "~0.2.0",
     "grunt-contrib-watch": "~0.5.3",
-    "grunt": "~0.4.2",
-    "celeri": "~0.3.3"
+    "grunt": "~0.4.2"
   },
-  "keywords": []
+  "keywords": [],
+  "dependencies": {
+    "optimist": "~0.6.1"
+  }
 }
