@@ -26,8 +26,8 @@
   },
   "preferGlobal": "true",
   "bin": {
-    "ijl": "lib/jslisp-cli.js",
-    "jsl": "lib/jslisp-cli.js"
+    "ijl": "lib/ijl.js",
+    "jslisp": "lib/jslisp-cli.js"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.4",
