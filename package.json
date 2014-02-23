@@ -1,7 +1,7 @@
 {
   "name": "jslisp-cli",
   "description": "Command Line Inteface for the jslisp compiler",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/TheThirdOne/jslisp-cli",
   "author": {
     "name": "Benjamin Landers",
